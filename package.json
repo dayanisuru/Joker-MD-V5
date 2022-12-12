@@ -1,15 +1,15 @@
 {
-               "name": "Astro-Md",
+               "name": "Joker-Md",
                "version": "0.0.6",
-               "description": "Multi device whatsapp bot by Vihangayt.",
+               "description": "Multi device whatsapp bot by dayanisuru.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name AstroMD",
-                "stop": "pm2 stop AstroMD"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name JokerMD",
+                "stop": "pm2 stop JokerMD"
                 },
-               "author": "Vihangayt",
+               "author": "dayanisuru",
               "dependencies": {
                        "@adiwajshing/baileys": "latest", 
                        "@adiwajshing/keyed-db": "^0.2.4",
