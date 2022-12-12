@@ -6,25 +6,25 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
-global.email = 'vihangaytbisnuss@gmail.com'
-global.github = 'https://github.com/vihangayt0/Astro-MD-V5'
+global.email = 'isurudayan2001@gmail.com'
+global.github = 'https://github.com/dayanisuru/Joker-MD-V5'
 global.location = 'Sri Lanka'
 global.gurl = 'https://instagram.com/' 
-global.sudo = process.env.SUDO || '9400000000'
-global.devs = '9476289851';
-global.website = 'https://github.com/vihangayt0/Astro-MD-V5'
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/vihangayt0/server-/main/Astroboy.jpg'
+global.sudo = process.env.SUDO || '94776312185'
+global.devs = '94776312185';
+global.website = 'https://github.com/dayanisuru/Joker-MD-V5'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/dayanisuru/server-/main/Astroboy.jpg'
 module.exports = {
   ntilink: 'chat.whatsapp.com',
-  botname: process.env.BOT_NAME || 'Astro-MD',
-  footer: process.env.FOOTER || 'Astro-MD',
+  botname: process.env.BOT_NAME || 'Joker-MD',
+  footer: process.env.FOOTER || 'Joker-MD',
   ANTI_BAD: process.env.ANTI_BAD || 'false',
   rmbg: process.env.REMOVEBG_API || 'AH5BTMLtcC1PLipDQXessTFk',
   ANTI_SPAM: process.env.ANTI_SPAM || 'true',
   ibmg: process.env.INBOX_BL_MSG || '*inbox not allowed*',
   ibmgL: process.env.GROUP_ONLY || 'false',
   grlink: process.env.GroupLink || '',
-  ownername:process.env.OWNER_NAME || 'Vihangaashinshana11',
+  ownername:process.env.OWNER_NAME || 'Isurudayan11',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   packname: process.env.PACK_INFO.split(";")[1] || 'Name',
